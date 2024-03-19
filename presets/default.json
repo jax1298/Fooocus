@@ -11,22 +11,22 @@
         [
             true,
             "xl_more_art-full.safetensors",
-            0.0
+            0.1
         ],
         [
             true,
             "Detail_Tweaker_XL.safetensors",
-            0.0
+            0.1
         ],
         [
             true,
             "DetailedEyes.safetensors",
-            0.0
+            0.1
         ],
         [
             true,
             "Aesthetic_Anime.safetensors",
-            0.0
+            0.1
         ]
     ],
     "default_cfg_scale": 4.0,
