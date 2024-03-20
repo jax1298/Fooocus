@@ -57,7 +57,10 @@
         "xl_more_art-full.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
         "Detail_Tweaker_XL.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
         "DetailedEyes.safetensors": "https://civitai.com/api/download/models/145907",
-        "Aesthetic_Anime.safetensors": "https://civitai.com/api/download/models/331598?type=Model&format=SafeTensor"
+        "Aesthetic_Anime.safetensors": "https://civitai.com/api/download/models/331598?type=Model&format=SafeTensor",
+        "Greg_Rutkowski.safetensors": "https://civitai.com/api/download/models/127510?type=Model&format=SafeTensor",
+        "Frank_Frazetta.safetensors": "https://civitai.com/api/download/models/129786",
+        
     },
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
