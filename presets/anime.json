@@ -1,35 +1,36 @@
+
 {
-    "default_model": "animaPencilXL_v100.safetensors",
+    "default_model": "Albedo.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "None",
-            1.0
+            "ClassipeintXL.safetensors",
+            0.1
         ],
         [
             true,
-            "None",
-            1.0
+            "xl_more_art-full.safetensors",
+            0.1
         ],
         [
             true,
-            "None",
-            1.0
+            "Detail_Tweaker_XL.safetensors",
+            0.1
         ],
         [
             true,
-            "None",
-            1.0
+            "DetailedEyes.safetensors",
+            0.1
         ],
         [
             true,
-            "None",
-            1.0
+            "Frank_Frazetta.safetensors",
+            0.1
         ]
     ],
-    "default_cfg_scale": 7.0,
+    "default_cfg_scale": 4.0,
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
@@ -38,14 +39,35 @@
     "default_prompt_negative": "",
     "default_styles": [
         "Fooocus V2",
-        "Fooocus Semi Realistic",
-        "Fooocus Masterpiece"
+        "Fooocus Enhance",
+        "Fooocus Sharp"
     ],
-    "default_aspect_ratio": "896*1152",
+    "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "animaPencilXL_v100.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/animaPencilXL_v100.safetensors"
+        "Albedo.safetensors": "https://civitai.com/api/download/models/329420?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     },
-    "embeddings_downloads": {},
-    "lora_downloads": {},
-    "previous_default_models": []
+    "embeddings_downloads": {
+        "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
+        "unaestheticXL_AYv1.safetensors": "https://civitai.com/api/download/models/162146?type=Model&format=SafeTensor",
+        "unaestheticXL_Jug6.safetensors": "https://civitai.com/api/download/models/207934?type=Model&format=SafeTensor",
+        "unaestheticXL_2v10.safetensors": "https://civitai.com/api/download/models/302265?type=Model&format=SafeTensor",
+        "negativeXL.safetensors": "https://civitai.com/api/download/models/134583"
+    },
+    "lora_downloads": {
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
+        "xl_more_art-full.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
+        "Detail_Tweaker_XL.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
+        "DetailedEyes.safetensors": "https://civitai.com/api/download/models/145907",
+        "Aesthetic_Anime.safetensors": "https://civitai.com/api/download/models/331598?type=Model&format=SafeTensor",
+        "Greg_Rutkowski.safetensors": "https://civitai.com/api/download/models/127510?type=Model&format=SafeTensor",
+        "Frank_Frazetta.safetensors": "https://civitai.com/api/download/models/129786",
+        "ClassipeintXL.safetensors": "https://civitai.com/api/download/models/356771?type=Model&format=SafeTensor"
+    },
+    "previous_default_models": [
+        "juggernautXL_version8Rundiffusion.safetensors",
+        "juggernautXL_version7Rundiffusion.safetensors",
+        "juggernautXL_v7Rundiffusion.safetensors",
+        "juggernautXL_version6Rundiffusion.safetensors",
+        "juggernautXL_v6Rundiffusion.safetensors"
+    ]
 }
