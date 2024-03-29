@@ -21,12 +21,12 @@
         ],
         [
             true,
-            "DetailedEyes.safetensors",
+            "Cinematic_fantasy_style.safetensors",
             0.1
         ],
         [
             true,
-            "Frank_Frazetta.safetensors",
+            "DreamyVibes_Artsyle.safetensors",
             0.1
         ]
     ],
@@ -60,7 +60,10 @@
         "DetailedEyes.safetensors": "https://civitai.com/api/download/models/145907",
         "Aesthetic_Anime.safetensors": "https://civitai.com/api/download/models/331598?type=Model&format=SafeTensor",
         "Greg_Rutkowski.safetensors": "https://civitai.com/api/download/models/127510?type=Model&format=SafeTensor",
-        "Frank_Frazetta.safetensors": "https://civitai.com/api/download/models/129786"
+        "Frank_Frazetta.safetensors": "https://civitai.com/api/download/models/129786",
+        "Juggernaut_Cinematic": "https://civitai.com/api/download/models/131991?type=Model&format=SafeTensor",
+        "Cinematic_fantasy_style": "https://civitai.com/api/download/models/209105?type=Model&format=SafeTensor",
+        "DreamyVibes_Artsyle": "https://civitai.com/api/download/models/287607"
     },
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
